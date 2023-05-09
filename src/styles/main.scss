@@ -1,0 +1,20 @@
+@use 'hero';
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    color: #Fff;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%;
+    @media(max-width: 640px){
+        max-width: 80%;
+    }
+    @media(max-width: 1024px){
+        max-width: 90%;
+    }
+}
