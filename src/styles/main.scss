@@ -1,11 +1,13 @@
 @use 'hero';
-
+@use 'components/infos_bar.scss';
+@use 'components/buttons';
 *{
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     color: #Fff;
+    list-style: none;
 }
 .container{
     max-width: 960px;
