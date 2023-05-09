@@ -1,6 +1,7 @@
 @use 'hero';
 @use 'components/infos_bar.scss';
 @use 'components/buttons';
+@use 'event';
 *{
     padding: 0;
     margin: 0;
